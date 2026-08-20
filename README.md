@@ -1,7 +1,5 @@
 # 📊 A/B Testing Simulation with Statistical Power Analysis
 
-[svg](https://github.com/prachiputhran/ab-testing-simulation#ab-testing-simulation-simulation-with-statistical-power-analysis)
-
 > **Statistical Experimentation / Hypothesis Testing**
 
 An experiment exploring how **A/B testing and statistical power analysis** can be used to evaluate whether a change in a product experience leads to a statistically significant improvement in conversion rate.
@@ -11,8 +9,6 @@ The project simulates user behavior for **control and treatment groups**, applie
 ---
 
 ## 🔍 What I Explored
-
-[svg](https://github.com/prachiputhran/ab-testing-simulation#-what-i-explored)
 
 This experiment focused on understanding the complete workflow of a statistical A/B test:
 
@@ -26,8 +22,6 @@ This experiment focused on understanding the complete workflow of a statistical 
 ---
 
 ## 🏗️ A/B Testing Workflow
-
-[svg](https://github.com/prachiputhran/ab-testing-simulation#%EF%B8%8F-ab-testing-workflow)
 
 The overall workflow can be represented as:
 
@@ -65,15 +59,11 @@ Define Baseline Conversion Rate
 Empirical Power  Type I Error
 ```
 
-**svg**
-
 This workflow demonstrates how **experimental design, statistical testing, and simulation-based validation** can be combined in an A/B testing experiment.
 
 ---
 
 ## 🧪 Hypothesis Testing
-
-[svg](https://github.com/prachiputhran/ab-testing-simulation#-hypothesis-testing)
 
 The experiment uses a **two-proportion z-test** to determine whether the conversion rates of the control and treatment groups differ significantly.
 
@@ -96,8 +86,6 @@ The resulting **p-value** is compared against the selected significance level to
 
 ## 📐 Statistical Power Analysis
 
-[svg](https://github.com/prachiputhran/ab-testing-simulation#-statistical-power-analysis)
-
 Power analysis is performed before simulation to estimate the sample size required to detect a meaningful difference between the two conversion rates.
 
 The analysis considers:
@@ -113,8 +101,6 @@ This helps ensure that the experiment has a sufficient number of observations to
 ---
 
 ## 🎲 User Behavior Simulation
-
-[svg](https://github.com/prachiputhran/ab-testing-simulation#-user-behavior-simulation)
 
 Synthetic user behavior is generated using **binomial trials**.
 
@@ -134,8 +120,6 @@ Separate conversion probabilities are defined for the control and treatment grou
 
 ## 🔁 Monte Carlo Validation
 
-[svg](https://github.com/prachiputhran/ab-testing-simulation#-monte-carlo-validation)
-
 The statistical experiment is repeated multiple times using Monte Carlo simulation.
 
 This allows the theoretical properties of the hypothesis test to be compared with empirical results.
@@ -151,8 +135,6 @@ The results provide an additional validation of the statistical methodology used
 
 ## 📊 Effect Size — Cohen's h
 
-[svg](https://github.com/prachiputhran/ab-testing-simulation#-effect-size--cohens-h)
-
 The experiment uses **Cohen's h** to quantify the difference between the control and treatment conversion rates.
 
 Effect size provides additional context beyond statistical significance by describing the magnitude of the observed or expected difference.
@@ -162,8 +144,6 @@ This is important because a statistically significant result does not necessaril
 ---
 
 ## 📁 Repository Structure
-
-[svg](https://github.com/prachiputhran/ab-testing-simulation#-repository-structure)
 
 ```text
 ab-testing-simulation/
@@ -182,8 +162,6 @@ ab-testing-simulation/
 ---
 
 ## ▶️ Run the Project
-
-[svg](https://github.com/prachiputhran/ab-testing-simulation#%EF%B8%8F-run-the-project)
 
 Clone the repository:
 
@@ -208,8 +186,6 @@ jupyter notebook ab_testing_simulation.ipynb
 
 ## 🛠️ Technologies
 
-[svg](https://github.com/prachiputhran/ab-testing-simulation#%EF%B8%8F-technologies)
-
 * **Python**
 * **NumPy** — numerical computation and simulation
 * **SciPy** — statistical testing
@@ -221,8 +197,6 @@ jupyter notebook ab_testing_simulation.ipynb
 ---
 
 ## 🧠 What I Learned
-
-[svg](https://github.com/prachiputhran/ab-testing-simulation#-what-i-learned)
 
 This experiment provided practical experience with the statistical foundations of controlled experimentation.
 
